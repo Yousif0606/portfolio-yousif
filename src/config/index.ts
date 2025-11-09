@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Yousif Al-Anbaki — Frontend & AI Developer",
+  title: "Yousif Al-Anbaki — Aspiring Software and Machine Learning Engineer",
   author: "Yousif Al-Anbaki",
   description:
-    "Computing Science and Artificial Intelligence student passionate about building scalable, data-driven web applications and exploring the intersection of software engineering and machine learning.",
+    "Aspiring software and ML engineer passionate about building real products and learning through hands-on experience.",
   lang: "en",
   siteLogo: "/yousif-small.jpg",
   navLinks: [

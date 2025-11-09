@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Yousif Al-Anbaki — Aspiring Software and Machine Learning Engineer",
   author: "Yousif Al-Anbaki",
   description:
-    "Aspiring software and ML engineer passionate about building real products and learning through hands-on experience.",
+    "Aspiring software and ML engineer in the University of Alberta, passionate about building real products and learning through hands-on experience.",
   lang: "en",
   siteLogo: "/yousif-hero.jpg",
   navLinks: [
@@ -27,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Yousif Al-Anbaki",
     specialty: "Aspiring Software & Machine Learning Engineer",
     summary:
-      "Aspiring software and ML engineer passionate about building real products and learning through hands-on experience.",
+      "Aspiring software and ML engineer in the University of Alberta, passionate about building real products and learning through hands-on experience.",
     email: "yousif.alanbaki06@gmail.com",
   },
 

@@ -25,11 +25,12 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Yousif Al-Anbaki",
-    specialty: "Frontend & AI Developer",
+    specialty: "Aspiring Software & Machine Learning Engineer",
     summary:
-      "I’m a Computing Science and Artificial Intelligence student who loves building intuitive, scalable, and visually polished software. I’m focused on software engineering opportunities where I can contribute to real-world products while continuing to explore the growing field of machine learning.",
+      "Aspiring software and ML engineer passionate about building real products and learning through hands-on experience.",
     email: "yousif.alanbaki06@gmail.com",
   },
+
   experience: [
     {
       company: "CraftHive (Tech LiftOff – MRU)",
@@ -62,6 +63,7 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
   ],
+
   projects: [
     {
       name: "SMS Flashcards",
@@ -80,6 +82,21 @@ export const SITE_CONTENT: SiteContent = {
       image: "/godot-game.png",
     },
   ],
+
+  skills: [
+    "Python",
+    "C",
+    "SQL",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "Tailwind CSS",
+    "Git",
+    "Pandas",
+    "Matplotlib",
+  ],
+
   about: {
     description: `
       I’m Yousif — a Computing Science and Artificial Intelligence student passionate about solving problems through thoughtful software design.

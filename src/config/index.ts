@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Aspiring software and ML engineer passionate about building real products and learning through hands-on experience.",
   lang: "en",
-  siteLogo: "/yousif-small.jpg",
+  siteLogo: "/yousif-hero.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -31,58 +31,60 @@ export const SITE_CONTENT: SiteContent = {
     email: "yousif.alanbaki06@gmail.com",
   },
 
+  // EXPERIENCE — Updated & polished
   experience: [
     {
-      company: "CraftHive (Tech LiftOff – MRU)",
+      company: "Tech LiftOff — CraftHive (MRU Innovation Program)",
       position: "Technical Product Intern",
       startDate: "Oct 2024",
       endDate: "Jun 2025",
       summary: [
-        "Co-led development of CraftHive, a pricing tool for handmade sellers, contributing to the MVP backend using MongoDB and REST APIs.",
-        "Conducted user research and UX flow analysis to guide three core product features from concept to prototype.",
-      ],
-    },
-    {
-      company: "MRUHacks 2024",
-      position: "Hackathon Participant",
-      startDate: "Oct 2024",
-      endDate: "",
-      summary: [
-        "Built an SMS-based flashcard system using the MERN stack and Twilio APIs.",
-        "Developed backend API and user logic for timed study reminders, improving user engagement and learning efficiency.",
-      ],
-    },
-    {
-      company: "Alberta Collegiate Programming Contest",
-      position: "Div 1 Contestant",
-      startDate: "Oct 2024",
-      endDate: "",
-      summary: [
-        "Placed 12th out of 66 contestants in an Alberta-wide programming contest.",
-        "Solved timed algorithmic problems using Python, focusing on efficient data structures and performance.",
+        "Selected as 1 of only 12 Computing Science students — and one of just two first-year students — accepted into Tech LiftOff, an 8-month applied innovation program.",
+        "Co-led development of CraftHive, a pricing and workflow tool that helps handmade sellers automate cost calculations and improve product profitability.",
+        "Implemented backend logic using Node.js, Express, and MongoDB, including product cost models, price calculations, and data management APIs.",
+        "Collaborated with designers, developers, and product mentors to refine user flows, conduct user interviews, and align features with real seller needs.",
+        "Delivered a final pitch and live demo to mentors, industry professionals, and potential investors during the showcase event.",
       ],
     },
   ],
 
+  // PROJECTS — fully updated
   projects: [
+    {
+      name: "CraftHive — Pricing Tool for Handmade Sellers",
+      summary:
+        "Built during the Tech LiftOff program. A pricing tool that helps handmade sellers calculate accurate product prices using material costs, time, and overhead. Built backend features using Node.js, MongoDB, and REST APIs.",
+      linkPreview: "https://github.com/Yousif0606/Byte-Brigade",
+      linkSource: "https://github.com/Yousif0606/Byte-Brigade/tree/main/CraftHive",
+      image: "/yousif-hero.jpg",
+    },
     {
       name: "SMS Flashcards",
       summary:
-        "Hackathon project that delivers flashcards via SMS using Twilio and the MERN stack. Designed for efficient study reminders and accessibility without mobile apps.",
+        "Hackathon project that delivers flashcards via SMS using Twilio and the MERN stack. Designed for efficient spaced-repetition studying without needing a mobile app.",
       linkPreview: "https://github.com/TenzinDorjee1/smsflash",
       linkSource: "https://github.com/TenzinDorjee1/smsflash",
       image: "/sms-flashcards.png",
     },
     {
-      name: "Godot Game",
+      name: "Alberta Collegiate Programming Contest",
       summary:
-        "2D coin-collection game created using the Godot engine and Python for MRU’s Game Development Workshop.",
-      linkPreview: "https://github.com/Yousif0606/Godot-Work-shop",
-      linkSource: "https://github.com/Yousif0606/Godot-Work-shop",
-      image: "/godot-game.png",
+        "Placed 12th out of 66 contestants in Division 1. Solved timed algorithmic challenges focused on data structures, greedy algorithms, and high-performance problem solving.",
+      linkPreview: "https://acpc.example",
+      linkSource: "https://acpc.example",
+      image: "/yousif-hero.jpg",
+    },
+    {
+      name: "Bike & Scooter Rental Simulator",
+      summary:
+        "A text-based rental simulation system built with Python. Loads user and transportation data from files, calculates rental costs, and tracks total travel time using nested dictionaries and file I/O.",
+      linkPreview: "https://github.com/Yousif0606/transport_rental_simulator",
+      linkSource: "https://github.com/Yousif0606/transport_rental_simulator",
+      image: "/yousif-hero.jpg",
     },
   ],
 
+  // SKILLS
   skills: [
     "Python",
     "C",
@@ -97,6 +99,7 @@ export const SITE_CONTENT: SiteContent = {
     "Matplotlib",
   ],
 
+  // ABOUT — fixed and formatted correctly
   about: {
     description: `
       I’m Yousif — a Computing Science and Artificial Intelligence student passionate about solving problems through thoughtful software design.
@@ -105,6 +108,6 @@ export const SITE_CONTENT: SiteContent = {
       I enjoy working across the full stack, using tools like React, Next.js, and Python to build projects that blend functionality with creativity.
       Beyond coding, I love collaborating in hackathons, exploring open-source projects, and continuously learning how to turn ideas into impactful products.
     `,
-    image: "/yousif-big.jpg",
+    image: "/yousif-hero.jpg",
   },
 };

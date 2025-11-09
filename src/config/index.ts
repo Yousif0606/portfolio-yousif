@@ -48,7 +48,7 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
 
-  // PROJECTS — fully updated
+  // PROJECTS — updated with your real images
   projects: [
     {
       name: "CraftHive — Pricing Tool for Handmade Sellers",
@@ -56,7 +56,7 @@ export const SITE_CONTENT: SiteContent = {
         "Built during the Tech LiftOff program. A pricing tool that helps handmade sellers calculate accurate product prices using material costs, time, and overhead. Built backend features using Node.js, MongoDB, and REST APIs.",
       linkPreview: "https://github.com/Yousif0606/Byte-Brigade",
       linkSource: "https://github.com/Yousif0606/Byte-Brigade/tree/main/CraftHive",
-      image: "/yousif-hero.jpg",
+      image: "/craft-hive-hero.jpg",
     },
     {
       name: "SMS Flashcards",
@@ -64,7 +64,7 @@ export const SITE_CONTENT: SiteContent = {
         "Hackathon project that delivers flashcards via SMS using Twilio and the MERN stack. Designed for efficient spaced-repetition studying without needing a mobile app.",
       linkPreview: "https://github.com/TenzinDorjee1/smsflash",
       linkSource: "https://github.com/TenzinDorjee1/smsflash",
-      image: "/sms-flashcards.png",
+      image: "/sms-hero.jpg",
     },
     {
       name: "Alberta Collegiate Programming Contest",
@@ -72,7 +72,7 @@ export const SITE_CONTENT: SiteContent = {
         "Placed 12th out of 66 contestants in Division 1. Solved timed algorithmic challenges focused on data structures, greedy algorithms, and high-performance problem solving.",
       linkPreview: "https://acpc.example",
       linkSource: "https://acpc.example",
-      image: "/yousif-hero.jpg",
+      image: "/programming-contest.jpg",
     },
     {
       name: "Bike & Scooter Rental Simulator",

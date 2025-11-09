@@ -80,7 +80,7 @@ export const SITE_CONTENT: SiteContent = {
         "A text-based rental simulation system built with Python. Loads user and transportation data from files, calculates rental costs, and tracks total travel time using nested dictionaries and file I/O.",
       linkPreview: "https://github.com/Yousif0606/transport_rental_simulator",
       linkSource: "https://github.com/Yousif0606/transport_rental_simulator",
-      image: "/yousif-hero.jpg",
+      image: "/scooter.jpg",
     },
   ],
 
